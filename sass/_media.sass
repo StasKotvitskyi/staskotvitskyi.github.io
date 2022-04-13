@@ -1,0 +1,435 @@
+@media (max-width: 1399px)
+    .menu
+        &_item
+            padding-right: 30px
+    .subheader
+        .row
+            padding-left: 0%
+        &_logo
+            margin-top: 16px
+    .advantages
+        &_wrapper
+            margin: auto 20px
+        &_text
+            width: 382px
+    .world
+        min-height: none
+        .world_img
+            width: 100%
+
+@media (max-width: 1199px)
+    .menu
+        &_item
+            padding-right: 25px
+        &_link
+            font-size: 12px
+    .subheader
+        &_logo
+            margin-top: 16px
+        &_phone
+            font-size: 18px
+        .row
+            padding-left: 7%
+    .promo
+        &_header
+            font-size: 50px
+    .advantages
+        &_wrapper
+            margin: auto 10px
+        &_text
+            width: 298px
+    .mobile
+        min-height: 846px
+        &_item
+            width: 310px
+            height: 271px
+    .world
+        height: 652px
+        &_btn
+            margin: 393px auto 0 auto
+    .footer
+        .footer_line
+            width: 100%
+        .footer_nav1
+            justify-content: space-between
+            flex-wrap: wrap
+            width: 100%
+        .footer_nav2
+            justify-content: center
+            flex-wrap: wrap
+            width: 100%
+            height: 60px
+            &_link
+                margin: 0 5px
+
+@media (max-width: 991px)
+    .dark_header
+        font-size: 35px
+    .white_header
+        font-size: 35px
+    .menu
+        padding: 13px 10px
+        &_item
+            padding-right: 15px
+    .subheader
+        &_logo
+            margin-top: 16px
+        &_btn
+            width: 100%
+            padding: 15px 10px
+            font-size: 13px
+        &_official
+            font-size: 11px
+    .promo
+        min-height: 670px
+        &_header
+            font-size: 40px
+        &_subheader
+            font-size: 26px
+        &_btn
+            margin: 90px auto 0 auto
+    .advantages
+        &_text
+            width: 420px
+    .possibilities
+        &_img 
+            width: 100%
+    .world
+        height: 492px
+        &_btn
+            margin: 233px auto 0 auto
+    .footer
+        &_item_wrap_1
+            width: 50%
+            order: 2
+            height: 55px
+        &_item_wrap_2
+            width: 100%
+            order: 1
+            height: 101px
+        &_item_wrap_3
+            width: 50%
+            order: 3
+            height: 55px
+        &_social
+            margin: 30px 6px 0 6px
+        .footer_social
+            margin: 0px 6px 0 6px
+        .footer_line
+            width: 301px
+        .footer_nav1
+            justify-content: space-between
+            flex-wrap: wrap
+            width: 400px
+            margin: 20px auto 0 auto
+        .footer_nav2
+            justify-content: center
+            flex-wrap: wrap
+            width: 400px
+            height: 30px
+        .footer_store
+            margin: 0 6px 0 6px
+
+@media (max-width: 767px)
+    .dark_header
+        font-size: 26px
+    .white_header
+        font-size: 26px
+    .menu
+        position: fixed
+        top: 0px
+        flex-direction: column
+        justify-content: center
+        left: -100%
+        height: 100vh
+        width: 50%
+        background-color: rgba(0, 0, 0, 0.8)
+        transition: 0.6s all
+        &_link
+            display: block
+            padding: 7px 0
+            font-size: 22px
+        &_item
+            border-right: none
+            margin-top: 20px
+        &_active
+            left: 0
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #ffffff
+            margin-bottom: 2px
+            transition: 0.5s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block
+    .subheader
+        &_phone
+            display: block
+            font-weight: 400
+            font-size: 16px
+            text-align: center
+            text-transform: uppercase
+            color: #FFFFFF
+            margin-top: 10px
+        &_btn
+            display: block
+            width: 200px
+            height: 40px
+            margin: 0 auto
+            margin-top: 10px
+            padding: 10px 10px
+            &:hover
+                    background-image: linear-gradient(to top, $main-color 0%, #4CE2FF 100%)
+    .promo
+        &_header
+            font-size: 40px
+        &_subheader
+            font-size: 28px
+        &_btn
+            &:hover
+                background-image: linear-gradient(to top, $main-color 0%, #4CE2FF 100%)
+    .advantages
+        &_wrapper
+            display: block
+            margin: auto auto
+        &_text
+            display: block
+            width: 100%
+            &_title
+                padding-top: 10px
+    .possibilities
+        height: 650px
+        &_img 
+            width: 100%
+    .require
+        &_block
+            margin: 20px 0px
+        &_title
+            font-size: 19px
+        &_list
+            margin-top: 10px
+            list-style-type: none
+            padding-left: 50px
+            font-size: 15px
+            font-weight: 300
+            color: #222222
+            li
+                margin-bottom: 4px
+                position: relative
+                &::before
+                    content: ''
+                    display: block
+                    position: absolute
+                    left: -30px
+                    top: 2px
+                    height: 17px
+                    width: 18px
+                    background: url(../icons/checkbox_mint.png) center center/cover no-repeat
+            &_red
+                li
+                    &::before
+                        background: url(../icons/checkbox_red.png) center center/cover no-repeat
+
+@media (max-width: 575px)
+    .dark_header
+        font-size: 23px
+    .white_header
+        font-size: 23px
+    .menu
+        position: fixed
+        top: 0px
+        flex-direction: column
+        justify-content: center
+        left: -100%
+        height: 100vh
+        width: 80%
+        background-color: rgba(0, 0, 0, 0.8)
+        transition: 0.6s all
+        &_link
+            display: block
+            padding: 7px 0
+            font-size: 17px
+        &_item
+            border-right: none
+            margin-top: 20px
+        &_active
+            left: 0
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #ffffff
+            margin-bottom: 2px
+            transition: 0.5s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block
+    .subheader
+        height: 70px
+        &_logo
+            margin-top: 20px
+            img
+                width: 110%
+        &_official
+            display: none
+        &_phone
+            display: block
+            font-weight: 400
+            font-size: 16px
+            text-align: center
+            text-transform: uppercase
+            color: #FFFFFF
+            margin-top: 7px
+        &_btn
+            display: block
+            width: 120px
+            height: 30px
+            margin: 0 auto
+            margin-top: 10px
+            padding: 7px 7px
+            font-size: 11px
+            &:hover
+                background-image: linear-gradient(to top, $main-color 0%, #4CE2FF 100%)
+    .promo
+        min-height: 500px
+        padding: 150px 25px 135px 25px
+        &_header
+            font-size: 30px
+        &_subheader
+            font-size: 28px
+        &_descr
+            display: none
+        &_btn
+            &:hover
+                background-image: linear-gradient(to top, $main-color 0%, #4CE2FF 100%)
+    .advantages
+        padding: 18px 20px 40px 20px
+        &_wrapper
+            display: block
+            margin: auto auto
+        &_text
+            display: block
+            width: 100%
+            &_title
+                text-align: center
+    .mobile_item
+        position: relative
+        width: 297px
+        height: 260px
+    .possibilities
+        min-height: 393px
+        max-height: 490px
+        &_img 
+            width: 100%
+        .white_header
+            display: none
+        .white_subheader
+            display: none
+    .require
+        &_block
+            margin: 20px 0px
+        &_title
+            font-size: 19px
+        &_list
+            margin-top: 10px
+            list-style-type: none
+            padding-left: 50px
+            font-size: 15px
+            font-weight: 300
+            color: #222222
+            li
+                margin-bottom: 4px
+                position: relative
+                &::before
+                    content: ''
+                    display: block
+                    position: absolute
+                    left: -30px
+                    top: 2px
+                    height: 17px
+                    width: 18px
+                    background: url(../icons/checkbox_mint.png) center center/cover no-repeat
+            &_red
+                li
+                    &::before
+                        background: url(../icons/checkbox_red.png) center center/cover no-repeat
+    .world
+        height: 320px
+        &_btn
+            margin: 100px auto 0 auto
+    .footer
+        &_item_wrap_1
+            width: 100%
+            order: 2
+            height: 55px
+        &_item_wrap_2
+            width: 100%
+            order: 1
+            height: 115px
+        &_item_wrap_3
+            width: 100%
+            order: 3
+            height: 55px
+        .footer_item1
+            justify-content: center
+        &_social
+            margin: 30px 6px 0 6px
+        .footer_social
+            margin: 0px 6px 0 6px
+        .footer_line
+            width: 301px
+        .footer_nav1
+            justify-content: space-between
+            flex-wrap: wrap
+            width: 300px
+            margin: 20px auto 0 auto
+        .footer_nav2
+            justify-content: center
+            flex-wrap: wrap
+            width: 300px
+            height: 30px
+        .footer_store
+            margin: 0 6px 0 6px
+        .footer_item2
+            display: flex
+            justify-content: center
+            width: 100%
+            padding: 0 3px 0 3px
